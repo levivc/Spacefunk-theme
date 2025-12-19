@@ -1,0 +1,21 @@
+{
+  "name": "deep-funk-theme",
+  "displayName": "Deep Funk Theme",
+  "description": "A dark aquatic funky theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.107.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Deep Funk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Deep Funk-color-theme.json"
+      }
+    ]
+  }
+}
