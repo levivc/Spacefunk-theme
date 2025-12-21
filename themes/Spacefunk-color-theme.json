@@ -157,10 +157,8 @@
 		},
 		{
 			"scope": [
-				"comment.line.double-dash",
-				"comment.line.double-slash",
+				"comment.line",
 				"comment.block",
-				"comment.line.shebang"
 			],
 			"settings": {
 				"foreground": "#999999",

@@ -16,18 +16,6 @@
         "uiTheme": "vs-dark",
         "path": "./themes/Spacefunk-color-theme.json"
       }
-    ],
-    "grammars": [
-      {
-        "scopeName": "spacefunk.colon.injection",
-        "path": "./syntaxes/colon.injection.json",
-        "injectTo": [
-          "source.lua",
-          "source.js",
-          "source.ts",
-          "source.python"
-        ]
-      }
     ]
   }
 }
