@@ -1,7 +1,7 @@
 {
-  "name": "deep-funk-theme",
-  "displayName": "Deep Funk Theme",
-  "description": "A dark aquatic funky theme",
+  "name": "spacefunk-theme",
+  "displayName": "Spacefunk Theme",
+  "description": "Groovy Baby!",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.107.0"
@@ -12,9 +12,21 @@
   "contributes": {
     "themes": [
       {
-        "label": "Deep Funk",
+        "label": "Spacefunk",
         "uiTheme": "vs-dark",
-        "path": "./themes/Deep Funk-color-theme.json"
+        "path": "./themes/Spacefunk-color-theme.json"
+      }
+    ],
+    "grammars": [
+      {
+        "scopeName": "spacefunk.colon.injection",
+        "path": "./syntaxes/colon.injection.json",
+        "injectTo": [
+          "source.lua",
+          "source.js",
+          "source.ts",
+          "source.python"
+        ]
       }
     ]
   }
