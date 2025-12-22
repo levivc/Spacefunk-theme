@@ -149,7 +149,8 @@
 				"source.lua",
 				"source.json.comments",
 				"constant.language",
-				"keyword.operator"
+				"keyword.operator",
+				// "variable.language.self",
 			],
 			"settings": {
 				"foreground": "#6ac7bf"
@@ -175,17 +176,6 @@
 		},
 		{
 			"scope": [
-				"variable.parameter.function",
-				"variable.other",
-				"entity.other.attribute",
-				"entity.name.class"
-			],
-			"settings": {
-				"foreground": "#d5d7c0",
-			}
-		},
-		{
-			"scope": [
 				"entity.name.function",
 				"support.function",
 				"support.function.any-method",
@@ -206,7 +196,27 @@
 		},
 		{
 			"scope": [
-				"variable.language.self",
+				"variable.parameter.function",
+				"variable.other",
+				"entity.name.class",
+				"entity.other.attribute",
+				"variable.language.self"
+			],
+			"settings": {
+				"foreground": "#d5d7c0",
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute"
+			],
+			"settings": {
+				"foreground": "#f0b483",
+			}
+		},
+		{
+			"scope": [
+				// "variable.language.self",
 				"constant.character.escape",
 			],
 			"settings": {
@@ -223,7 +233,7 @@
 			}
 		},
         {
-            "name": "json level 1",
+			"name": "json level 1",
             "scope": [
                 "source.json meta.structure.dictionary.json support.type.property-name.json"
             ],
@@ -297,11 +307,13 @@
 	],
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
-		"variable.global": { "foreground": "#f0b483", "italic": false},
-		"variable.defaultLibrary": { "foreground": "#f0b483", "italic": false},
+		// "variable.global": { "foreground": "#f0b483", "italic": true, "bold": false},
+		"variable.global": { "italic": true},
+		// "variable.defaultLibrary": { "foreground": "#f0b483", "italic": false, "bold": false},
+		"variable.defaultLibrary": { "foreground": "#e0d084" },
 		// "function.global" : { "foreground": "#df92d7", "italic": false },
 		// "function.defaultLibrary": { "foreground": "#df92d7", "italic": false },
-		"function.global" : { "foreground": "#ab9cd8", "italic": true },
-		"function.defaultLibrary": { "foreground": "#ab9cd8", "italic": true },
-	}
+		"function.global" : { "italic": true },
+		// "function.defaultLibrary": { "italic": true },
+	},
 }
