@@ -25,6 +25,11 @@
         "label": "Spacefunk3",
         "uiTheme": "vs-dark",
         "path": "./themes/Spacefunk3-color-theme.json"
+      },
+      {
+        "label": "Spacefunk4",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Spacefunk4-color-theme.json"
       }
     ]
   }

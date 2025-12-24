@@ -296,8 +296,10 @@
 	],
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
-		"variable.global": { "italic": true},
-		"function.global" : { "italic": true },
+		// "variable.global": { "foreground": "#adc0c7", "italic": true },
+		"variable.global": { "foreground": "#acd8cd", "italic": true },
+		// "function.global" : { "foreground": "#d4a1bd", "italic": true },
+		"function.global" : { "foreground": "#d48cd6", "italic": true },
 		"variable.defaultLibrary": { "foreground": "#e0d084" },
 		"function.defaultLibrary": { "foreground": "#e0d084" },
 	},
