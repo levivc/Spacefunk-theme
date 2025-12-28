@@ -30,6 +30,16 @@
         "label": "Spacefunk4",
         "uiTheme": "vs-dark",
         "path": "./themes/Spacefunk4-color-theme.json"
+      },
+      {
+        "label": "Spacefunk5",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Spacefunk5-color-theme.json"
+      },
+      {
+        "label": "Spacefunk6",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Spacefunk6-color-theme.json"
       }
     ]
   }
